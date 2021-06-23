@@ -1,19 +1,21 @@
 body,
 body * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #section_left {
   width: 40%;
   float: left;
-  color: aliceblue;
+  color: white;
   background-image: url(/src/images/black-marble.jpg);
   background-repeat: no-repeat;
   background-position: center;
   padding-left: 30px;
-  padding-top: 450px;
+  padding-top: 250px;
   display: inline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #section_right {
@@ -22,6 +24,12 @@ body * {
   padding-left: 30px;
   padding-top: 150px;
   border-top: 1px solid black;
+}
+
+.time_container {
+  float: left;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 footer {

@@ -15,6 +15,7 @@ body * {
   padding-left: 30px;
   padding-top: 450px;
   display: inline;
+  box-sizing: border-box;
 }
 
 #section_right {
@@ -23,6 +24,11 @@ body * {
   padding-left: 30px;
   padding-top: 150px;
   border-top: 1px solid black;
+}
+
+.time_container {
+  float: left;
+  box-sizing: border-box;
 }
 
 footer {
