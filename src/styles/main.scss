@@ -11,10 +11,12 @@ body * {
   color: aliceblue;
   background-image: url(/src/images/black-marble.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  padding-left: 30px;
+  background-size: cover;
+  padding-left: 20px;
   padding-top: 450px;
-  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
 }
 
